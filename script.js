@@ -61,7 +61,7 @@ restart.addEventListener("click", function () {
   showWord();
 
   // Reset timer
-  clearInterval(timerId);
+  clearInterval();
   timerId = setInterval(countdown, 1000);
 });
 function triggerPop() {
